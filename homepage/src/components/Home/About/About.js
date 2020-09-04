@@ -75,7 +75,7 @@ class About extends Component {
                                             </ul>
                                         </div>
                                         <div className="flip-box">
-                                            <a className="flip-anchor" href="/#"><p onClick={this.handleClick}> CLICK ME </p></a>
+                                            <a className="flip-anchor font-style" href="/#"><p onClick={this.handleClick}> CLICK ME </p></a>
                                         </div>
                                     </Col>
                                 </Row>

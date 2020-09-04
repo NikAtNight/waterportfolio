@@ -17,7 +17,7 @@
     height: 100%;
 }
 
-.logo>img {
+.logo > img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -25,4 +25,30 @@
 
 .link-text {
     font-family: "Courier New", Courier, monospace;
+}
+
+.burger-icon {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.sidenav {
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #84bdc4;
+    z-index: 2000;
+}
+
+.outer {
+    height: 100%;
+    width: 100%;
+}
+
+.sidenav-content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-80%);
 }

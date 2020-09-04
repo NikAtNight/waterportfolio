@@ -1,12 +1,14 @@
 .a-content {
     height: 100vh;
     width: 100vw;
-    border: 1px solid transparent;
+    position: relative;
 }
 
 .about-content {
-    margin-left: 19vw;
-    margin-top: 4vw;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-40%, -25%);
     width: 80%;
     height: 60%;
 }
@@ -63,8 +65,7 @@
 
 .flip-anchor {
     /*text-decoration: none;*/
-    color: black;
-    font-family: "Courier New", Courier, monospace;
+    /*color: black;*/
     font-size: 16pt;
     position: absolute;
     bottom: 0;
@@ -73,26 +74,21 @@
     margin-top: 100px;
     border:0;
     padding:0;
-    background-color: transparent;
 }
 
-/* unvisited link */
 .flip-anchor:link {
     color: black;
 }
 
-/* visited link */
 .flip-anchor:visited {
     color: black;
 }
 
-/* mouse over link */
 .flip-anchor:hover {
     text-decoration: none;
     color: #2d92c4;
 }
 
-/* selected link */
 .flip-anchor:active {
     color: #2d92c4;
 }
@@ -133,10 +129,6 @@
 }
 
 .icon-slider {
-    /*background: white;*/
-    /*height: 100px;*/
-    /*box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);*/
-    /*margin: auto;*/
     overflow: hidden;
     position: relative;
     width: 80%;
