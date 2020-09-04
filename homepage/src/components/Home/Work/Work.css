@@ -25,6 +25,18 @@
     margin-bottom: auto
 }
 
+.img-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-centering {
+
+}
+
 .construction-text {
     font-size: 10pt;
     font-family: "Courier New", Courier, monospace;

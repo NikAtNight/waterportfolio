@@ -1,16 +1,16 @@
 import React from 'react'
 import './Work.css'
 import Flippy, {BackSide, FrontSide} from "react-flippy";
-import {Row,Col, Button} from "react-bootstrap";
+import {Button, Col, Row} from "react-bootstrap";
 
 const CardContainer = (props) => {
-    const {img,noLogo,size,alt,title,subTitle,subSubTitle,web, repo} = props
+    const {img, noLogo, size, alt, title, subTitle, subSubTitle, web, repo} = props
 
     return (
         <Flippy flipOnHover={true} flipOnClick={false} flipDirection="horizontal"
                 style={{width: "30%", height: "80%"}}>
             <FrontSide style={{display: "block", textAlign: "center", backgroundColor: "white"}}>
-                <div style={{display: "block",marginTop: "10%"}}>
+                <div className="img-container">
                     {img != null ? (
                         <img width={size} src={img} alt={alt}/>
                     ) : (
@@ -28,14 +28,16 @@ const CardContainer = (props) => {
                     <Row>
                         <Col>
                             <Button>
-                                <a href={web} target="_blank" style={{color: "white", textDecoration:"none"}} rel="noopener noreferrer">
+                                <a href={web} target="_blank" style={{color: "white", textDecoration: "none"}}
+                                   rel="noopener noreferrer">
                                     <p className="font-style">Website</p>
                                 </a>
                             </Button>
                         </Col>
                         <Col>
                             <Button>
-                                <a href={repo} target="_blank" style={{color: "white", textDecoration:"none"}} rel="noopener noreferrer">
+                                <a href={repo} target="_blank" style={{color: "white", textDecoration: "none"}}
+                                   rel="noopener noreferrer">
                                     <p className="font-style">GitHub</p>
                                 </a>
                             </Button>
