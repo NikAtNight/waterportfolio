@@ -1,0 +1,28 @@
+.nav-wrapper {
+    transition: background-color 0.2s ease-in;
+    position: fixed;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.nav-wrapper.scrolled {
+    transition: background-color 0.2s ease-in;
+    position: fixed;
+    z-index: 1000;
+    background-color: #2d92c4;
+}
+
+.logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo>img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.link-text {
+    font-family: "Courier New", Courier, monospace;
+}

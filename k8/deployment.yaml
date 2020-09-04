@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nk-webapp
+  labels:
+    app: nk-webapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: nk-webapp
+  template:
+    metadata:
+      labels:
+        name: nk-webapp
+    spec:
+      containers:
+        - name: nk-webapp
+          image: astronik/nkwebapp:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080

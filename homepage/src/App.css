@@ -1,0 +1,25 @@
+.anchor{
+    text-decoration: none;
+    color: white;
+}
+
+/* unvisited link */
+.anchor:link {
+    color: white;
+}
+
+/* visited link */
+.anchor:visited {
+    color: white;
+}
+
+/* mouse over link */
+.anchor:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+/* selected link */
+.anchor:active {
+    color: white;
+}

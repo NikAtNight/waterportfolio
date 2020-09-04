@@ -1,0 +1,47 @@
+.w-content {
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid transparent;
+    background-color: #e5e5e5;
+}
+
+.work-content {
+    border: 1px solid transparent;
+    margin-left: 18.5vw;
+    margin-top: 6vw;
+    width: 60%;
+    height: 60%;
+}
+
+.work-card {
+    width: 30%;
+    height: 80%;
+    text-align: center;
+}
+
+.card-content {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto
+}
+
+.construction-text {
+    font-size: 10pt;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.ripple {
+    background-position: center;
+    transition: background 0.2s, all 0.2s ease-in-out;
+}
+
+.ripple:hover {
+    background: #2d92c4 radial-gradient(circle, transparent 1%, #2d92c4 1%) center/15000%;
+    transform: scale(1.2);
+}
+
+.ripple:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+}
