@@ -47,9 +47,9 @@ class NavBar extends Component {
                 <ul id="sidebar" className="sidenav">
                     <div className="outer">
                         <div className="sidenav-content">
-                            <li><a className="anchor" href='#home'> Home </a></li>
-                            <li><a className="anchor" href='#about'> About </a></li>
-                            <li><a className="anchor" href='#projects'> Projects </a></li>
+                            <li><a className="anchor sidenav-close" href='#home'> Home </a></li>
+                            <li><a className="anchor sidenav-close" href='#about'> About </a></li>
+                            <li><a className="anchor sidenav-close" href='#projects'> Projects </a></li>
                         </div>
                     </div>
 
