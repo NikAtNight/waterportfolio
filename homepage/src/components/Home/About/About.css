@@ -450,18 +450,29 @@
         padding-right: 50px;
         height: 100%;
     }
+    .about-img {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 100em;
+        overflow: hidden;
+        margin-top: 15%;
+    }
+
+    .about-me {
+        margin-top: -2%;
+    }
 
     .flip-box {
-        margin-top: 270px;
+        margin-top: 180px;
     }
     .icons {
         width: 65px;
     }
     .font-style {
         font-family: "Courier New", Courier, monospace;
-        font-size: 16pt;
+        font-size: 14pt;
     }
     li {
-        font-size: 14pt;
+        font-size: 13pt;
     }
 }
