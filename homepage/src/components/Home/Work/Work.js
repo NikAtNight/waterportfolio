@@ -26,7 +26,7 @@ class Work extends Component {
                         <h1 className="font-style-title"> Projects </h1>
                         <br/>
                         <br/>
-                        <Row style={{height: "50%"}} className="justify-content-between flex-row-reverse">
+                        <Row className="justify-content-between flex-row-reverse h-50">
                             <CardContainer
                                 img={null}
                                 noLogo={"Algorithmic Piano"}
@@ -58,22 +58,34 @@ class Work extends Component {
                             />
 
                         </Row>
-                        <Row style={{height: "50%"}} className="justify-content-between flex-row-reverse">
-                            <Card className="work-card ripple">
-                                <div className="card-content">
-                                    <img width="45px" src="img/questionMark.png" alt="question"/>
-                                </div>
-                            </Card>
-                            <Card className="work-card ripple">
-                                <div className="card-content">
-                                    <img width="45px" src="img/questionMark.png" alt="question"/>
-                                </div>
-                            </Card>
-                            <Card className="work-card ripple">
-                                <div className="card-content">
-                                    <img width="45px" src="img/questionMark.png" alt="question"/>
-                                </div>
-                            </Card>
+                        <Row className="justify-content-between flex-row-reverse h-50">
+                            <Row className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                <Card className="work-card ripple">
+                                    <div className="card-content">
+                                        <div className="img-centering">
+                                            <img className="img-width" src="img/questionMark.png" alt="question"/>
+                                        </div>
+                                    </div>
+                                </Card>
+                            </Row>
+                            <Row className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                <Card className="work-card ripple">
+                                    <div className="card-content">
+                                        <div className="img-centering">
+                                            <img className="img-width" src="img/questionMark.png" alt="question"/>
+                                        </div>
+                                    </div>
+                                </Card>
+                            </Row>
+                            <Row className="col-lg-4 col-md-4 col-sm-12 col-12">
+                                <Card className="work-card ripple">
+                                    <div className="card-content">
+                                        <div className="img-centering">
+                                            <img className="img-width" src="img/questionMark.png" alt="question"/>
+                                        </div>
+                                    </div>
+                                </Card>
+                            </Row>
                         </Row>
                     </div>
                 </div>

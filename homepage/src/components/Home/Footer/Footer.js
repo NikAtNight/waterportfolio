@@ -13,7 +13,7 @@ const Footer = () => {
                         </p>
                     </div>
                     <div className="col l2 offset-l2 s12">
-                        <p className="white-text font-style">Disclaimer: Not Optimized For Mobile</p>
+                        <p className="white-text font-style">Optimized for Mobile Use</p>
                         {/*<ul>*/}
                         {/*    <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>*/}
                         {/*    <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>*/}

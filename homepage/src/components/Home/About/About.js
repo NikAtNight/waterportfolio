@@ -7,7 +7,11 @@ class About extends Component {
     constructor() {
         super();
         this.state = {
-            isFlipped: false
+            isFlipped: false,
+            bCard: {
+                width:"80%",
+                height:"110%"
+            },
         };
         this.handleClick = this.handleClick.bind(this);
     }
@@ -17,49 +21,48 @@ class About extends Component {
         this.setState(prevState => ({isFlipped: !prevState.isFlipped}));
     }
 
-
     render() {
         return (
             <section id="about" className="home-section">
                 <div className="a-content">
                     <div className="about-content">
                         <br/>
-                        <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
+                        <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical" containerStyle={this.state.bCard}>
                             <Card className="card-sizing-front">
-                                <Row className="flex">
-                                    <Col><h2 className="font-style-title"> About Me </h2></Col>
-                                    <Col style={{margin: "auto",}}>
-                                        <div className="d-flex flex-row-reverse mr-5">
+                                <Row>
+                                    <Col className="title-column col-12 col-sm-12 col-md-12 col-lg-8"><h2 className="font-style-title"> About Me </h2></Col>
+                                    <Col className="social-column col-12 col-sm-12 col-md-12 col-lg-4">
+                                        <div className="social-icon-container">
                                             <a href="https://twitter.com/NikhilKapadia_" target="_blank"
                                                rel="noopener noreferrer">
-                                                <img align="left" alt="twitter" width="30px"
+                                                <img align="left" alt="twitter" className="icon-size"
                                                      src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/twitter.svg"/>
                                             </a>
                                             <a href="https://github.com/AstroNik" target="_blank"
                                                rel="noopener noreferrer">
-                                                <img align="left" style={{marginRight: "35px"}} alt="github"
-                                                     width="30px"
+                                                <img align="left"  alt="github"
+                                                     className="icon-size2"
                                                      src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/github.svg"/>
                                             </a>
                                             <a href="https://www.linkedin.com/in/nikhilkapadia01/" target="_blank"
                                                rel="noopener noreferrer">
-                                                <img align="left" style={{marginRight: "35px"}} alt="linkedin"
-                                                     width="30px"
+                                                <img align="left" alt="linkedin"
+                                                     className="icon-size2"
                                                      src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/linkedin.svg"/>
                                             </a>
                                         </div>
                                     </Col>
                                 </Row>
 
-                                <Row style={{marginTop: "50px"}}>
-                                    <Col>
+                                <Row className="about-card-content">
+                                    <Col className="col-lg-3 col-md-4 col-sm-12 img-column">
                                         <div className="about-img">
                                             <img className="img-fix" src="img/octopus.jpg" alt="octopus"/>
                                         </div>
                                     </Col>
-                                    <Col>
+                                    <Col className="col-lg-9 col-md-8 col-sm-12">
                                         <div className="about-me">
-                                            <h4 className="font-style"> Nikhil Kapadia</h4>
+                                            <h4 className="font-style-title"> Nikhil Kapadia</h4>
                                             <p className="font-style"> Aspiring Full-Stack Software Developer </p>
                                             <ul className="font-style" style={{fontSize: "11pt"}}>
                                                 <li><span role="img" aria-label="Telescope">🔭</span> I’m currently
