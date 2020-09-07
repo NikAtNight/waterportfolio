@@ -43,7 +43,7 @@ class Work extends Component {
                                 title={"Stock Options"}
                                 subTitle={"Personal Project"}
                                 subSubTitle={"Under Construction"}
-                                web={"#"}
+                                web={"https://nikhilkapadia.com/stock"}
                                 repo={"https://github.com/AstroNik/StockApp"}
                             />
                             <CardContainer
