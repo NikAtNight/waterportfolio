@@ -28,13 +28,13 @@ class Work extends Component {
                         <br/>
                         <Row className="justify-content-between flex-row-reverse h-50">
                             <CardContainer
-                                img={null}
-                                noLogo={"Algorithmic Piano"}
-                                title={"Piano Algorithm"}
+                                img={"img/spaceShooter.png"}
+                                size={"200px"}
+                                title={"Spaceshooter"}
                                 subTitle={"Personal Project"}
                                 subSubTitle={"Under Construction"}
                                 web={"#"}
-                                repo={"https://github.com/AstroNik/PianoApp"}
+                                repo={"https://github.com/AstroNik/Spaceshooter"}
                             />
                             <CardContainer
                                 img={"img/stockOps.png"}
