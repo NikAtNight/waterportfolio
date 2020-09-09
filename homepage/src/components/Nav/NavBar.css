@@ -18,8 +18,8 @@
 }
 
 .logo > img {
-    position: absolute;
-    top: 50%;
+    position: relative;
+    top: 20%;
     transform: translateY(-50%);
 }
 

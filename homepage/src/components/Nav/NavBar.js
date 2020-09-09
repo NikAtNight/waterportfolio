@@ -32,7 +32,7 @@ class NavBar extends Component {
                                 <i className="fa fa-bars"> </i>
                             </Link>
                         </div>
-                        <a href='#home' className="brand-logo logo anchor mx-auto">
+                        <a href='#home' className="brand-logo anchor logo mt-0 h-100">
                             <img width="65px" src="img/logo.png" alt="logo"/>
                         </a>
                         <div>
