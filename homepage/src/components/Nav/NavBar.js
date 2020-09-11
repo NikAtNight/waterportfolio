@@ -16,7 +16,7 @@ class NavBar extends Component {
             if (window.scrollY > window.innerHeight - 1) {
                 this.setState({activeClass: 'nav-wrapper scrolled'})
             }
-            if (window.scrollY < window.innerHeight) {
+            if (window.scrollY < window.innerHeight - 1) {
                 this.setState({activeClass: 'nav-wrapper'})
             }
         });
