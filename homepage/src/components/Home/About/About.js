@@ -30,7 +30,9 @@ class About extends Component {
                         <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical" containerStyle={this.state.bCard}>
                             <Card className="card-sizing-front">
                                 <Row>
-                                    <Col className="title-column col-12 col-sm-12 col-md-12 col-lg-8"><h2 className="font-style-title"> About Me </h2></Col>
+                                    <Col className="title-column col-12 col-sm-12 col-md-12 col-lg-8">
+                                        <b><p className="section-title"> About Me </p></b>
+                                    </Col>
                                     <Col className="social-column col-12 col-sm-12 col-md-12 col-lg-4">
                                         <div className="social-icon-container">
                                             <a href="https://twitter.com/NikhilKapadia_" target="_blank"
@@ -62,23 +64,22 @@ class About extends Component {
                                     </Col>
                                     <Col className="col-lg-9 col-md-8 col-sm-12">
                                         <div className="about-me">
-                                            <h4 className="font-style-title"> Nikhil Kapadia</h4>
-                                            <p className="font-style"> Aspiring Full-Stack Software Developer </p>
-                                            <ul className="font-style" style={{fontSize: "11pt"}}>
-                                                <li><span role="img" aria-label="Telescope">🔭</span> I’m currently
-                                                    working on a few projects to build up my
-                                                    portfolio
+                                            <h4 className="card-header-title"> Nikhil Kapadia</h4>
+                                            <p className="card-subtitle"> Aspiring Full-Stack Software Developer </p>
+                                            <br/>
+                                            <ul className="font-style">
+                                                <li className="card-subtext"><span role="img" aria-label="Telescope">🔭</span> Currently working on building my portfolio
                                                 </li>
-                                                <li><span role="img" aria-label="Fruit">🌱</span> I’m currently learning
-                                                    Tensorflow
+                                                <li className="card-subtext"><span role="img" aria-label="Fruit">🌱</span> Currently learning
+                                                    image recognition using Tensorflow
                                                 </li>
-                                                <li><span role="img" aria-label="Lightning">⚡ </span> Fun fact: I enjoy
+                                                <li className="card-subtext"><span role="img" aria-label="Lightning">⚡ </span> Fun fact: I enjoy
                                                     programming for fun and working out
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div className="flip-box">
-                                            <a className="flip-anchor font-style" href="/#"><p onClick={this.handleClick}> CLICK ME </p></a>
+                                        <div>
+                                            <a className="flip-anchor card-subtext" href="/#"><p onClick={this.handleClick}> CLICK ME </p></a>
                                         </div>
                                     </Col>
                                 </Row>

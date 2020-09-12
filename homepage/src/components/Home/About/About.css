@@ -36,14 +36,26 @@
     background-position: center;
 }
 
-.font-style {
+.section-title {
     font-family: "Courier New", Courier, monospace;
+    font-size: 25pt;
 }
 
-.font-style-title {
+.card-header-title {
     font-family: "Courier New", Courier, monospace;
-    font-weight: bold;
+    font-size: 22pt;
 }
+.card-subtitle {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16pt;
+    font-style: italic;
+}
+
+.card-subtext {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14pt;
+}
+
 
 .link-icons {
     border: 1px solid black;
@@ -85,7 +97,6 @@
     transform: rotateZ(180deg);
 }
 
-
 @media (max-width: 575.98px) {
     .card-sizing-front {
         width: 100%;
@@ -110,6 +121,18 @@
         justify-content: space-around;
     }
 
+    .card-header-title {
+        font-size: 18pt;
+    }
+
+    .card-subtitle {
+        font-size: 14pt;
+    }
+
+    .card-subtext {
+        font-size: 12pt;
+    }
+
     .icon-size {
         width: 20px;
     }
@@ -126,19 +149,6 @@
         display: none;
     }
 
-    .flip-box {
-        margin-top: 110px;
-    }
-
-    .flip-anchor {
-        font-size: 10pt;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        margin-bottom: 70px;
-        border: 0;
-        padding: 0;
-    }
     .icons {
         width: 50px;
     }
@@ -192,8 +202,8 @@
     .card-sizing-front {
         width: 100%;
         padding-top: 15px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 25px;
+        padding-right: 14px;
         height: 100%;
     }
 
@@ -202,7 +212,19 @@
     }
 
     .social-column {
-        margin-top: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .card-header-title {
+        font-size: 18pt;
+    }
+    .card-subtitle {
+        font-size: 14pt;
+    }
+
+    .card-subtext {
+        font-size: 12pt;
     }
 
     .social-icon-container {
@@ -212,37 +234,17 @@
     }
 
     .icon-size {
-        width: 23px;
+        width: 25px;
     }
 
     .icon-size2 {
-        width: 23px;
+        width: 25px;
     }
 
-    .about-img {
-        width: 12vw;
-        height: 12vw;
-        border-radius: 100em;
-        overflow: hidden;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 30px;
+    .img-column {
+        display: none;
     }
 
-    .flip-box {
-        margin-top: 80px;
-    }
-
-    .flip-anchor {
-        font-size: 12pt;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        border: 0;
-        padding: 0;
-        margin-bottom: 40px;
-        margin-left: 10px;
-    }
     .icons {
         width: 55px;
     }
@@ -307,6 +309,22 @@
         justify-content: space-around;
     }
 
+    .img-column {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-img {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 100em;
+        overflow: hidden;
+        margin-top: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .icon-size {
         width: 30px;
     }
@@ -316,17 +334,23 @@
         margin-right: 35px;
     }
 
-    .about-card-content {
-        margin-top: 50px;
-        height: 100%
+    .card-header-title {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 18pt;
+    }
+    .card-subtitle {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 14pt;
     }
 
-    .about-img {
-        width: 10vw;
-        height: 10vw;
-        border-radius: 100em;
-        overflow: hidden;
-        margin-top: 50px;
+    .card-subtext {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 12pt;
+    }
+
+    .about-card-content {
+        margin-top: 25px;
+        height: 100%
     }
 
     .about-me {
@@ -334,19 +358,6 @@
         margin-bottom: auto;
     }
 
-    .flip-box {
-        margin-top: 130px;
-    }
-
-    .flip-anchor {
-        font-size: 14pt;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        margin-bottom: 60px;
-        border: 0;
-        padding: 0;
-    }
     .icons {
         width: 55px;
     }
@@ -363,9 +374,19 @@
     }
 
     .social-icon-container {
-        display: flex;
-        flex-direction: row-reverse;
         justify-content: end;
+        align-items: end;
+    }
+
+    .card-header-title {
+        font-size: 22pt;
+    }
+    .card-subtitle {
+        font-size: 16pt;
+    }
+
+    .card-subtext {
+        font-size: 14pt;
     }
 
     .about-img {
@@ -373,15 +394,14 @@
         height: 10vw;
         border-radius: 100em;
         overflow: hidden;
-        margin-top: 20%;
+        margin-top: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
+
 
     .about-me {
         margin-top: 5%;
-    }
-
-    .flip-box {
-        margin-top: 200px;
     }
 
     .flip-anchor {
@@ -393,6 +413,7 @@
         border: 0;
         padding: 0;
     }
+
     .icons {
         width: 60px;
     }
@@ -462,16 +483,10 @@
         margin-top: -2%;
     }
 
-    .flip-box {
-        margin-top: 180px;
-    }
     .icons {
         width: 65px;
     }
-    .font-style {
-        font-family: "Courier New", Courier, monospace;
-        font-size: 14pt;
-    }
+
     li {
         font-size: 13pt;
     }

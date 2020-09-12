@@ -23,7 +23,7 @@ class Work extends Component {
             <section id="projects" className="home-section">
                 <div className="w-content">
                     <div className="work-content">
-                        <h1 className="font-style-title"> Projects </h1>
+                        <b><p className="section-title"> Projects </p></b>
                         <br/>
                         <br/>
                         <Row className="justify-content-between flex-row-reverse h-50">

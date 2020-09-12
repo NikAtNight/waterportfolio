@@ -150,7 +150,7 @@ class CardContainer extends Component {
                             {img != null ? (
                                 <img width={size} src={img} alt={alt}/>
                             ) : (
-                                <h3 className="font-style-title"> {noLogo}</h3>
+                                <h3> {noLogo}</h3>
                             )
                             }
 
@@ -160,7 +160,7 @@ class CardContainer extends Component {
                         {this.state.cardContent ? (
                             <div className="card-content">
 
-                                <h3 className="font-style-title"> {title} </h3>
+                                <h3 className="flip-card-title"> {title} </h3>
                                 <p className="construction-text" style={{margin: 0,}}> {subTitle} </p>
                                 <p className="construction-text" style={{margin: 0,}}> {subSubTitle} </p>
                                 <Row>
@@ -169,7 +169,7 @@ class CardContainer extends Component {
                                             <a href={web} target="_blank"
                                                style={{color: "white", textDecoration: "none"}}
                                                rel="noopener noreferrer">
-                                                <p className="font-style">Website</p>
+                                                <p>Website</p>
                                             </a>
                                         </Button>
                                     </Col>
@@ -178,7 +178,7 @@ class CardContainer extends Component {
                                             <a href={repo} target="_blank"
                                                style={{color: "white", textDecoration: "none"}}
                                                rel="noopener noreferrer">
-                                                <p className="font-style">GitHub</p>
+                                                <p>GitHub</p>
                                             </a>
                                         </Button>
                                     </Col>
@@ -192,7 +192,7 @@ class CardContainer extends Component {
                                             <a href={web} target="_blank"
                                                style={{color: "white", textDecoration: "none"}}
                                                rel="noopener noreferrer">
-                                                <p className="font-style">Website</p>
+                                                <p>Website</p>
                                             </a>
                                         </Button>
                                     </Col>
@@ -201,7 +201,7 @@ class CardContainer extends Component {
                                             <a href={repo} target="_blank"
                                                style={{color: "white", textDecoration: "none"}}
                                                rel="noopener noreferrer">
-                                                <p className="font-style">GitHub</p>
+                                                <p>GitHub</p>
                                             </a>
                                         </Button>
                                     </Col>
