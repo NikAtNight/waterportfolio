@@ -25,7 +25,6 @@ class Work extends Component {
                     <div className="work-content">
                         <b><p className="section-title"> Projects </p></b>
                         <br/>
-                        <br/>
                         <Row className="justify-content-between flex-row-reverse h-50">
                             <CardContainer
                                 img={"img/spaceShooter.png"}
