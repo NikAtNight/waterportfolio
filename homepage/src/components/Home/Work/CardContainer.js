@@ -150,7 +150,7 @@ class CardContainer extends Component {
                             {img != null ? (
                                 <img width={size} src={img} alt={alt}/>
                             ) : (
-                                <h3> {noLogo}</h3>
+                                <h3 className="section-title"> {noLogo}</h3>
                             )
                             }
 

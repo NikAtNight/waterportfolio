@@ -27,13 +27,12 @@ class Work extends Component {
                         <br/>
                         <Row className="justify-content-between flex-row-reverse h-50">
                             <CardContainer
-                                img={"img/spaceShooter.png"}
-                                size={"200px"}
-                                title={"Spaceshooter"}
+                                noLogo={"RPG"}
+                                title={"RPG"}
                                 subTitle={"Personal Project"}
                                 subSubTitle={"Under Construction"}
                                 web={"#"}
-                                repo={"https://github.com/AstroNik/Spaceshooter"}
+                                repo={"https://github.com/AstroNik/RPG"}
                             />
                             <CardContainer
                                 img={"img/stockOps.png"}
