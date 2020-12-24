@@ -136,6 +136,7 @@
     }
     .img-centering {
         margin-top: 20px;
+        width: 100%;
     }
     .construction-text {
         font-size: 12pt;

@@ -41,7 +41,7 @@ class Work extends Component {
                                 title={"Stock Options"}
                                 subTitle={"Personal Project"}
                                 subSubTitle={"Under Construction"}
-                                web={"https://nikhilkapadia.com/stock"}
+                                web={"https://stock.nikhilkapadia.com"}
                                 repo={"https://github.com/AstroNik/StockApp"}
                             />
                             <CardContainer
@@ -50,8 +50,8 @@ class Work extends Component {
                                 alt={"ecoders"}
                                 title={"ECOders"}
                                 subTitle={"School Project"}
-                                subSubTitle={"Under Construction"}
-                                web={"https://www.ecoders.ca"}
+                                subSubTitle={"Won Edge Award"}
+                                web={"https://ecoders.nikhilkapadia.com"}
                                 repo={"https://github.com/AstroNik"}
                             />
 
