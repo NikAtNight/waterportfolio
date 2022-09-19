@@ -1,2 +1,3 @@
 build.sh
 Dockerfile
+/k8/ingress.yaml
